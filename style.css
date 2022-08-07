@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+
+    /* Primary
+    --Light-Cyan: hsl(193, 38%, 86%);
+    --Neon-Green: #52ffa8;
+
+    /* Neutral */
+
+    /* --Grayish-Blue: #4e5d73;
+    --Dark-Grayish-Blue: #323a49; */ */
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+        background-color: rgba(13, 12, 14, 0.95);
+        font-family: system-ui, -apple-system, BlinkMacSystemFont,
+         'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+          'Helvetica Neue', sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #333534;
+    color: white;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    border-radius: 10px;
+}
+#advice{
+    padding: 10px;
+}
+.line{
+    margin-top: 30px;
+}
+.line img{
+    width: 80%;
+}
+
+.dice{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    background-color: aliceblue;
+}
+#myBtn{
+    height: 40px;
+    background-color: rgb(0, 255, 179);
+    width: 40px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 15px;
+    cursor: pointer;
+}
